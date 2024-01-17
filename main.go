@@ -1,6 +1,8 @@
 package main
 
-import racecondition "github.com/kaungmyathan22/golang-go-routine/race_condition"
+import (
+	"github.com/kaungmyathan22/golang-go-routine/mutex"
+)
 
 // func printSomething(s string, wg *sync.WaitGroup) {
 // 	defer wg.Done()
@@ -57,6 +59,10 @@ import racecondition "github.com/kaungmyathan22/golang-go-routine/race_condition
 //		printMessage()
 //	}
 
+// func main() {
+// 	// racecondition.RaceConditionMain()
+// }
+
 func main() {
-	racecondition.RaceConditionMain()
+	mutex.RunMutextSample()
 }
