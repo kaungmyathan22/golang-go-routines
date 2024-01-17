@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/kaungmyathan22/golang-go-routine/mutex"
-)
+import producer_consumer "github.com/kaungmyathan22/golang-go-routine/producer-consumer"
 
 // func printSomething(s string, wg *sync.WaitGroup) {
 // 	defer wg.Done()
@@ -63,6 +61,10 @@ import (
 // 	// racecondition.RaceConditionMain()
 // }
 
+// func main() {
+// 	mutex.RunMutextSample()
+// }
+
 func main() {
-	mutex.RunMutextSample()
+	producer_consumer.RunProducerConsumerSample()
 }
