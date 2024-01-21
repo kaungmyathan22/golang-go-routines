@@ -1,6 +1,8 @@
 package main
 
-import producer_consumer "github.com/kaungmyathan22/golang-go-routine/producer-consumer"
+import (
+	diningphilosopher "github.com/kaungmyathan22/golang-go-routine/dining-philosopher"
+)
 
 // func printSomething(s string, wg *sync.WaitGroup) {
 // 	defer wg.Done()
@@ -66,5 +68,6 @@ import producer_consumer "github.com/kaungmyathan22/golang-go-routine/producer-c
 // }
 
 func main() {
-	producer_consumer.RunProducerConsumerSample()
+	// producer_consumer.RunProducerConsumerSample()
+	diningphilosopher.DemoDiningProblem()
 }
