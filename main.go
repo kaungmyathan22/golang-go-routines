@@ -1,7 +1,7 @@
 package main
 
 import (
-	diningphilosopher "github.com/kaungmyathan22/golang-go-routine/dining-philosopher"
+	sleepingbarbar "github.com/kaungmyathan22/golang-go-routine/sleeping-barbar"
 )
 
 // func printSomething(s string, wg *sync.WaitGroup) {
@@ -69,5 +69,6 @@ import (
 
 func main() {
 	// producer_consumer.RunProducerConsumerSample()
-	diningphilosopher.DemoDiningProblem()
+	// diningphilosopher.DemoDiningProblem()
+	sleepingbarbar.RunSleepingBarBar()
 }
